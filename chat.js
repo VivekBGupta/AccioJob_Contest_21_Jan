@@ -22,7 +22,6 @@ searchButton.addEventListener("click", function () {
         if (questions[i].question.toLowerCase() === searchBarValue.toLowerCase()) {
             found = true
             output.innerHTML = `
-            <p>${questions[i].question}</p>
             <p>${questions[i].answer}</p>
             <img src=${questions[i].imageLink}>
             `
